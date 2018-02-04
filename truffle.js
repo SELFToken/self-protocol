@@ -15,10 +15,16 @@ module.exports = {
       },
       network_id: 3,
       gas: 4000000
+    },
+    live: {
+      host: "localhost",
+      port: 8546,
+      network_id: 1,
+      gas: 4000000
     }
   },
   rpc: {
     host: "localhost",
-    post: 8080
+    post: 8545
   }
 };
